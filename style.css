@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(https://soloinfantil.com/wp-content/uploads/2016/11/gifs-de-natal-minion.gif);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    align-content: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #73c473;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #3eaa72;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+  
+  /* Estilo do cartão */
+  .cartao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #b61a1a;
+    border: 1px solid #801616;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Rodapé */
+  .rodape {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .texto {
+    flex: 1;
+    padding-left: 20px;
+  }
+
+  .rodape {
+    background-color: #801616;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
